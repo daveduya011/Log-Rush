@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ac44536af478d4599c5a5f58412ce4, type: 3}
+  m_Name: SkinLibrary
+  m_EditorClassIdentifier: 
+  activeSkinWindow: 1
+  characterAssets:
+  - image: {fileID: 21300000, guid: 24e0f0107f757e64c9c06cf6ab5207da, type: 3}
+    id: 6fb5920e-00ed-4921-ba32-60bf16d8fc77
+    itemName: The Explorer
+    description: "\u2022 Default skin of the game\r\n\u2022 No special abilities\r"
+    price: 0
+    isOwned: 1
+    isEquipped: 1
+    isActive: 1
+    skinType: 0
+    displayImage: {fileID: 21300000, guid: b557d084bc2c7d84491c7783b8e9bef8, type: 3}
+  - image: {fileID: 21300000, guid: b0b38267fe030db4f8f12e5f9c7ef0c3, type: 3}
+    id: d5589943-b418-4c77-af7c-53a7b1e821fa
+    itemName: Tomb Rider
+    description: "\u2022 also known as Lara Croft\r\n\u2022 No special abilities"
+    price: 0
+    isOwned: 1
+    isEquipped: 0
+    isActive: 1
+    skinType: 0
+    displayImage: {fileID: 21300000, guid: 0baa95c8fbc0b284db79c4fa286adfbc, type: 3}
+  - image: {fileID: 21300000, guid: 3988f6dfaeab766489c1dfc3f2a6d730, type: 3}
+    id: 626a411b-14af-424b-832b-0425e50b439b
+    itemName: Professor Gilbert
+    description: "\r\u2022 a very smart, formal dressed professor\r"
+    price: 250
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 0
+    displayImage: {fileID: 21300000, guid: 34cef84bd254d0c42a6dd968e6b3d09e, type: 3}
+  - image: {fileID: 21300000, guid: 2c6597b71f360324c9e01866cc99b9ae, type: 3}
+    id: fbb979c0-528f-4729-8e42-2a98df1ca2ff
+    itemName: Devil
+    description: "\u2022 known in Japan as Gouki, is a fictional character from the
+      Street Fighter series"
+    price: 350
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 0
+    displayImage: {fileID: 21300000, guid: 913dd51aba96a574b8a6ec87e4beceb2, type: 3}
+  - image: {fileID: 21300000, guid: bbd3d0cb9855e864bbb9fcd6ff3ddaf1, type: 3}
+    id: 3d6ecefd-1f3f-4f15-8d53-75560f1503c8
+    itemName: Darna
+    description: "\u2022 Darna is a fictional Filipino comics superhero"
+    price: 450
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 0
+    displayImage: {fileID: 21300000, guid: a00fec863b3213c4e9fddcd30c4d1d13, type: 3}
+  logAssets:
+  - image: {fileID: 21300000, guid: 847f39f791b7e974b978e0d2c55c844d, type: 3}
+    id: a8049b66-64c7-4c45-bb39-d0d99bef2d54
+    itemName: Log
+    description: 
+    price: 0
+    isOwned: 1
+    isEquipped: 1
+    isActive: 1
+    skinType: 1
+    crocodileImageFront: {fileID: 21300000, guid: 90de55ba0d38cde4f9b1e211038b9de8,
+      type: 3}
+    crocodileImageBack: {fileID: 21300000, guid: 2f24e9e033216004fbe4d28f2f05d34d,
+      type: 3}
+    textColor: {r: 1, g: 0.7921569, b: 0.27843142, a: 1}
+  - image: {fileID: 21300000, guid: bc1106f86e236f444a7163cab39155b5, type: 3}
+    id: 6777a278-777e-4bda-84c2-433e27f4687b
+    itemName: Dark Log
+    description: 
+    price: 0
+    isOwned: 1
+    isEquipped: 0
+    isActive: 1
+    skinType: 1
+    crocodileImageFront: {fileID: 21300000, guid: ca3b8f3564c36414c9ce6f0e01ed4560,
+      type: 3}
+    crocodileImageBack: {fileID: 21300000, guid: 1c8432948ce0b4f4da6d0c990ab79427,
+      type: 3}
+    textColor: {r: 0, g: 0.6669483, b: 1, a: 1}
+  - image: {fileID: 21300000, guid: bdd9e40714c207641b2c0d10d1a8936a, type: 3}
+    id: 5acf61cd-ac15-44dd-8058-267801048bd2
+    itemName: Hotdog
+    description: 
+    price: 300
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 1
+    crocodileImageFront: {fileID: 21300000, guid: d6a7d0982bd535540936bd27368a158f,
+      type: 3}
+    crocodileImageBack: {fileID: 21300000, guid: 3dc837aa39c7f6b4e98730ad8a1eedb3,
+      type: 3}
+    textColor: {r: 1, g: 0.7921569, b: 0.2784314, a: 1}
+  - image: {fileID: 21300000, guid: 61ccf1cd16bbd114184bd50396a36dba, type: 3}
+    id: 9c199ffa-eb3e-47e7-8922-68a0001804f4
+    itemName: Lumpia
+    description: 
+    price: 300
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 1
+    crocodileImageFront: {fileID: 21300000, guid: c7cac183654487d44b81a9b7036d365b,
+      type: 3}
+    crocodileImageBack: {fileID: 21300000, guid: da002099dc2e35942a3d2a8c1a2b0193,
+      type: 3}
+    textColor: {r: 1, g: 0.7921569, b: 0.2784314, a: 1}
+  - image: {fileID: 21300000, guid: 77aa27c93129fc74b92f2b49bd6e999f, type: 3}
+    id: d71bbf9a-bb25-4f86-b1f8-d28bd0ff9688
+    itemName: Iron
+    description: 
+    price: 300
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 1
+    crocodileImageFront: {fileID: 21300000, guid: 077f6f34788f4444db1d9316aaa9fd98,
+      type: 3}
+    crocodileImageBack: {fileID: 21300000, guid: b8b4fdf596a48db43991e1e12ebac294,
+      type: 3}
+    textColor: {r: 1, g: 0.7921569, b: 0.2784314, a: 1}
+  - image: {fileID: 21300000, guid: 099f928f9127c384e9458f8b0fe9cdfc, type: 3}
+    id: ced7393b-5de1-4132-9394-553739823e67
+    itemName: Cloud
+    description: 
+    price: 300
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 1
+    crocodileImageFront: {fileID: 21300000, guid: 8cdf2720ff7698b4fbdce911ab0df4fa,
+      type: 3}
+    crocodileImageBack: {fileID: 21300000, guid: 4623747dbe984c14a95d692a6fe1fe5a,
+      type: 3}
+    textColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+  riverAssets:
+  - image: {fileID: 0}
+    id: 41b3fd4a-442e-47ea-aee1-e51133ebc932
+    itemName: River
+    description: 
+    price: 0
+    isOwned: 1
+    isEquipped: 1
+    isActive: 1
+    skinType: 2
+    riverColor: {r: 0.11372549, g: 0.8392157, b: 0.81960785, a: 1}
+    splashColor: {r: 1, g: 1, b: 1, a: 1}
+  - image: {fileID: 0}
+    id: 3999a9f1-b466-4c8f-8615-63ea484bba1f
+    itemName: Dark Mode
+    description: 
+    price: 0
+    isOwned: 1
+    isEquipped: 0
+    isActive: 1
+    skinType: 2
+    riverColor: {r: 0.06341225, g: 0.094668776, b: 0.1792453, a: 1}
+    splashColor: {r: 0.033018887, g: 0.6747435, b: 1, a: 1}
+  - image: {fileID: 0}
+    id: c86af988-617b-43b1-ae39-91a46cbaa4bc
+    itemName: Poison
+    description: 
+    price: 200
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 2
+    riverColor: {r: 0.1514774, g: 0.8679245, b: 0.5458763, a: 1}
+    splashColor: {r: 0, g: 0.5660378, b: 0.2734396, a: 1}
+  - image: {fileID: 0}
+    id: 72e13e9e-1472-4aab-bfa9-e0bd6238d00b
+    itemName: Snow
+    description: 
+    price: 200
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 2
+    riverColor: {r: 1, g: 1, b: 1, a: 1}
+    splashColor: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
+  - image: {fileID: 0}
+    id: 06e2ed46-950a-48e7-9d38-9e9950fbd447
+    itemName: Magma
+    description: 
+    price: 200
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 2
+    riverColor: {r: 0.4528302, g: 0, b: 0, a: 1}
+    splashColor: {r: 1, g: 0.3820755, b: 0.38819122, a: 1}
+  - image: {fileID: 0}
+    id: 6778eeeb-c13f-4bd8-b578-eb16b92da4fa
+    itemName: Pure Dark
+    description: 
+    price: 200
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 2
+    riverColor: {r: 0, g: 0, b: 0, a: 1}
+    splashColor: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+  - image: {fileID: 0}
+    id: fc4a125b-926d-4600-8be9-911016a1b729
+    itemName: Girly
+    description: 
+    price: 200
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 2
+    riverColor: {r: 1, g: 0.5330188, b: 0.76020753, a: 1}
+    splashColor: {r: 0.764151, g: 0, b: 0.2746408, a: 1}
+  - image: {fileID: 0}
+    id: 350dcf79-76fa-4221-9aee-3fad64e0a00c
+    itemName: Gold
+    description: 
+    price: 300
+    isOwned: 0
+    isEquipped: 0
+    isActive: 1
+    skinType: 2
+    riverColor: {r: 1, g: 0.8291509, b: 0, a: 1}
+    splashColor: {r: 1, g: 0.62498116, b: 0, a: 1}

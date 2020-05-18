@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: 6bc7c27989f880b429e729c7220233c4
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: Start Menu_GO/Start Menu_GO
+    100002: Start Menu_GO/Start Menu_GO/61f0d7caaee233b43ea8c5359c038c41
+    100004: Start Menu_GO/Start Menu_GO/Background
+    100006: Start Menu_GO/Start Menu_GO/games_controller-512x410
+    100008: Start Menu_GO/Start Menu_GO/Layer 1
+    100010: Start Menu_GO/Start Menu_GO/Logo Start
+    100012: Start Menu_GO/Start Menu_GO/trophy
+    100016: Start Menu_GO/Start Menu_GO/Shopping-Basket-03-512
+    100018: Start Menu_GO/Start Menu_GO/Play Bg
+    100020: Start Menu_GO/Start Menu_GO/Play Title
+    400000: Start Menu_GO/Start Menu_GO/Transform
+    400002: Start Menu_GO/Start Menu_GO/61f0d7caaee233b43ea8c5359c038c41/Transform
+    400004: Start Menu_GO/Start Menu_GO/Background/Transform
+    400006: Start Menu_GO/Start Menu_GO/games_controller-512x410/Transform
+    400008: Start Menu_GO/Start Menu_GO/Layer 1/Transform
+    400010: Start Menu_GO/Start Menu_GO/Logo Start/Transform
+    400012: Start Menu_GO/Start Menu_GO/trophy/Transform
+    400016: Start Menu_GO/Start Menu_GO/Shopping-Basket-03-512/Transform
+    400018: Start Menu_GO/Start Menu_GO/Play Bg/Transform
+    400020: Start Menu_GO/Start Menu_GO/Play Title/Transform
+    2800000: Start Menu
+    21200000: Start Menu_GO/Start Menu_GO/61f0d7caaee233b43ea8c5359c038c41/SpriteRenderer
+    21200002: Start Menu_GO/Start Menu_GO/Background/SpriteRenderer
+    21200004: Start Menu_GO/Start Menu_GO/games_controller-512x410/SpriteRenderer
+    21200006: Start Menu_GO/Start Menu_GO/Shopping-Basket-03-512/SpriteRenderer
+    21200008: Start Menu_GO/Start Menu_GO/Logo Start/SpriteRenderer
+    21200010: Start Menu_GO/Start Menu_GO/Layer 1/SpriteRenderer
+    21200012: Start Menu_GO/Start Menu_GO/trophy/SpriteRenderer
+    21200016: Start Menu_GO/Start Menu_GO/Play Bg/SpriteRenderer
+    21200018: Start Menu_GO/Start Menu_GO/Play Title/SpriteRenderer
+    21300000: b77a747a61ddc0942bebac03b5f4bb92
+    21300002: 5a1d6ddf8dc0116409484f40417c2fce
+    21300004: f69fb3d7665777947bcd784a66ccb7e1
+    21300006: 7f74672e98dec454a80e51eaa15b1b16
+    21300008: a4d404f7ae0acc44da5f72ab30864d37
+    21300010: a6f10b711dd46d34e8b5db0333cd3acc
+    21300012: 175993ebf34ba3d48a2847440c5ee75c
+    21300014: 58e4055fee4883e48a340a954835e884
+    21300016: 8b3276cd355553347a6deda9256dc0fd
+    100100000: Start Menu_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Play Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3527
+      width: 710
+      height: 413
+    spriteID: b77a747a61ddc0942bebac03b5f4bb92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -203, y: 3396}
+  - name: Play Bg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2974
+      width: 1080
+      height: 545
+    spriteID: 8b3276cd355553347a6deda9256dc0fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2912}
+  - name: Shopping-Basket-03-512
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1092
+      y: 245
+      width: 264
+      height: 251
+    spriteID: 5a1d6ddf8dc0116409484f40417c2fce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1053, y: -1348}
+  - name: games_controller-512x410
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1092
+      y: 4
+      width: 327
+      height: 233
+    spriteID: a4d404f7ae0acc44da5f72ab30864d37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 681, y: -1599}
+  - name: 61f0d7caaee233b43ea8c5359c038c41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1092
+      y: 504
+      width: 233
+      height: 233
+    spriteID: a6f10b711dd46d34e8b5db0333cd3acc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 278, y: -1094}
+  - name: Logo Start
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1932
+      width: 851
+      height: 1034
+    spriteID: 175993ebf34ba3d48a2847440c5ee75c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -111, y: 1372}
+  - name: Background
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1080
+      height: 1920
+    spriteID: 58e4055fee4883e48a340a954835e884
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: trophy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 722
+      y: 3527
+      width: 262
+      height: 338
+    spriteID: f69fb3d7665777947bcd784a66ccb7e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -64, y: 2313}
+  - name: Layer 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1364
+      y: 245
+      width: 0
+      height: 0
+    spriteID: 7f74672e98dec454a80e51eaa15b1b16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 284, y: -1675}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 1080, y: 1920}
+  textureActualWidth: 2048
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: trophy
+    spriteName: trophy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f69fb3d7665777947bcd784a66ccb7e1
+    layerID: 81
+    mosaicPosition: {x: 722, y: 3527}
+  - name: Layer 1
+    spriteName: Layer 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7f74672e98dec454a80e51eaa15b1b16
+    layerID: 80
+    mosaicPosition: {x: 1364, y: 245}
+  - name: Play Title
+    spriteName: Play Title
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b77a747a61ddc0942bebac03b5f4bb92
+    layerID: 47
+    mosaicPosition: {x: 4, y: 3527}
+  - name: Play Bg
+    spriteName: Play Bg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8b3276cd355553347a6deda9256dc0fd
+    layerID: 65
+    mosaicPosition: {x: 4, y: 2974}
+  - name: Icons
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 31
+    mosaicPosition: {x: 0, y: 0}
+  - name: Shopping-Basket-03-512
+    spriteName: Shopping-Basket-03-512
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 5a1d6ddf8dc0116409484f40417c2fce
+    layerID: 50
+    mosaicPosition: {x: 1092, y: 245}
+  - name: games_controller-512x410
+    spriteName: games_controller-512x410
+    isGroup: 0
+    parentIndex: 4
+    spriteID: a4d404f7ae0acc44da5f72ab30864d37
+    layerID: 51
+    mosaicPosition: {x: 1092, y: 4}
+  - name: 61f0d7caaee233b43ea8c5359c038c41
+    spriteName: 61f0d7caaee233b43ea8c5359c038c41
+    isGroup: 0
+    parentIndex: 4
+    spriteID: a6f10b711dd46d34e8b5db0333cd3acc
+    layerID: 52
+    mosaicPosition: {x: 1092, y: 504}
+  - name: Logo Start
+    spriteName: Logo Start
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 175993ebf34ba3d48a2847440c5ee75c
+    layerID: 54
+    mosaicPosition: {x: 4, y: 1932}
+  - name: Background
+    spriteName: Background
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 58e4055fee4883e48a340a954835e884
+    layerID: 56
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0
+  textureAssetName: Start Menu
+  prefabAssetName: Start Menu_GO
