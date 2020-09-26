@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Photon.Pun;
 using UnityEngine;
-using Hashtable = ExitGames.Client.Photon.Hashtable;
 
-public class PlayerController : MonoBehaviourPunCallbacks, IPunObservable, IPunInstantiateMagicCallback
+public class PlayerController : MonoBehaviour
 {
     private string equippedCharacterId;
 
@@ -15,10 +13,6 @@ public class PlayerController : MonoBehaviourPunCallbacks, IPunObservable, IPunI
     private float tempDrownTime;
     public SpriteRenderer characterSprite;
     public SkinLibrary skinLibrary;
-
-    private PhotonView PV;
-    public Color otherPlayerColor;
-
     public bool isFinishLineReached;
 
     public enum State
@@ -33,7 +27,6 @@ public class PlayerController : MonoBehaviourPunCallbacks, IPunObservable, IPunI
     private float jumpSpeed;
 
     void Awake() {
-        PV = GetComponent<PhotonView>();
         animator = GetComponent<Animator>();
         cameraController = Camera.main.GetComponent<CameraController>();
         jumpSpeed = cameraController.focusSpeed;
@@ -41,10 +34,6 @@ public class PlayerController : MonoBehaviourPunCallbacks, IPunObservable, IPunI
 
         PlayerData data = GameManager.Instance.GetPlayerData();
         LoadDefaultPlayer(data);
-
-        if (PV != null && PV.IsMine) {
-            gameObject.tag = "Player";
-        }
     }
 
     void Start() {
@@ -73,10 +62,6 @@ public class PlayerController : MonoBehaviourPunCallbacks, IPunObservable, IPunI
     void Update() {
         if (isFinishLineReached)
             return;
-
-        if (PV != null && !PV.IsMine) {
-            return;
-        }
 
         if (state == State.Jumping) {
             Jump();
@@ -140,11 +125,6 @@ public class PlayerController : MonoBehaviourPunCallbacks, IPunObservable, IPunI
         JumpToPosition(pos);
         animator.SetBool("isDrowned", true);
         FXSoundSystem.Instance.PlaySound(logManager.jumpInWaterSound, 0.5f);
-
-        if (PV != null && PV.IsMine) {
-            PV.RPC("RPC_SendDrowned", RpcTarget.Others);
-            PV.RPC("RPC_SendFinishLineReached", RpcTarget.All, false);
-        }
     }
 
     public async void CollectCoins() {
@@ -162,36 +142,6 @@ public class PlayerController : MonoBehaviourPunCallbacks, IPunObservable, IPunI
         animator.SetBool("isDrowned", false);
     }
 
-    [PunRPC]
-    public void RPC_SendDrowned() {
-        FXSoundSystem.Instance.PlaySound(logManager.jumpInWaterSound, 0.5f);
-    }
-
-    public void OnPhotonInstantiate(PhotonMessageInfo info) {
-        info.Sender.TagObject = this.gameObject;
-
-        if (!PV.IsMine) {
-            characterSprite.color = otherPlayerColor;
-            Vector3 pos = transform.position;
-            pos.z += 1;
-        }
-        if (PV.IsMine) {
-            equippedCharacterId = SaveSystem.LoadPlayer().equippedCharacterId;
-        }
-    }
-
-    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) {
-        if (stream.IsWriting) {
-            // We own this player: send the others our data
-            stream.SendNext(equippedCharacterId);
-        }
-        else {
-            // Network player, receive data
-            this.equippedCharacterId = (string)stream.ReceiveNext();
-            UpdateData();
-        }
-    }
-
     private void UpdateData() {
         if (equippedCharacterId != null) {
             PlayerData data = GameManager.Instance.GetPlayerData();
@@ -200,31 +150,7 @@ public class PlayerController : MonoBehaviourPunCallbacks, IPunObservable, IPunI
         }
     }
 
-
-    [PunRPC]
-    public void RPC_SendFinishLineReached(bool hasReached) {
-        // if has reached, it means it reached the finish line
-        // if not, then it eventually got drowned
-
-        logManager.isGameOver = true;
-        isFinishLineReached = true;
-
-        if (PV.IsMine) {
-            GameManager.Instance.isWin = hasReached;
-        } else {
-            GameManager.Instance.isWin = !hasReached;
-        }
-        Hashtable hash = new Hashtable();
-        hash.Add("Score", GameManager.Instance.score);
-
-        PhotonNetwork.LocalPlayer.SetCustomProperties(hash);
-
-        StartCoroutine(GameManager.Instance.GameOverMultiplayer());
-    }
-
     public void SetFinishLineReached() {
         isFinishLineReached = true;
-        PV.RPC("RPC_SendFinishLineReached", RpcTarget.All, true);
     }
-
 }

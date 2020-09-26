@@ -1,8 +1,4 @@
-﻿using Photon.Pun;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.Collections;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -91,17 +87,6 @@ public class LogManager : MonoBehaviour
     }
 
     private Log CreateLog(int index) {
-        // generate finish line
-        if (finishLine != -1 && isMultiplayer) {
-            if (index == finishLine) {
-                GameObject finishlineObj = Instantiate(finishLinePrefab, firstLogPos, Quaternion.identity);
-                finishlineObj.transform.position = firstLogPos + (Vector3.up * index * nextLogDistance) - (Vector3.up * nextLogDistance * 1.5f);
-                return null;
-            } else if (index > finishLine){
-                return null;
-            }
-        }
-
         logs[index % 5] = Instantiate(logPrefab, firstLogPos, Quaternion.identity);
         logs[index % 5].transform.position = firstLogPos + (Vector3.up * index * nextLogDistance);
         return logs[index % 5];

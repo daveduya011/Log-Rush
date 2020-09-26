@@ -8,22 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartMenu.unity
     guid: ca6b048d8a7080c408e945e80d9c2917
-  - enabled: 0
-    path: Assets/Scenes/Match.unity
-    guid: c5b225674fafb2d4e8511978a861e276
-  - enabled: 0
-    path: Assets/Scenes/Rooms.unity
-    guid: 55e35bc88cfea3a42b182f986dc90b14
   - enabled: 1
     path: Assets/Scenes/MainGame.unity
     guid: 509687babd696d9449333ec0f6f55c8e
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: afe7f8c23b627c1469a2192242cc6265
-  - enabled: 0
-    path: Assets/Scenes/GameOverMultiplayer.unity
-    guid: 2ade074d96f06d5408f770a0403df24e
-  - enabled: 0
-    path: Assets/Scenes/BattleGame.unity
-    guid: 4788bedeaa60c324b90a80e0150110ba
   m_configObjects: {}
