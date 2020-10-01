@@ -102,7 +102,7 @@ public class PlayerController : MonoBehaviour
 
         pos.y = targetPos.y;
         transform.position =
-        Vector3.Lerp(transform.position, pos, jumpSpeed);
+        Vector3.Lerp(transform.position, pos, jumpSpeed * Time.deltaTime);
 
         if (transform.position.y >= pos.y - 1f) {
             state = State.Idle;

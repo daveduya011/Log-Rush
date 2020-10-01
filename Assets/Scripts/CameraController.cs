@@ -14,7 +14,7 @@ public class CameraController : MonoBehaviour
     public State state = State.Idle;
     public float focusSpeed = 0.1f;
     public Transform focusedObject;
-    public float speed = 1;
+    public float speed = 5;
     public float onCrocsSpawnedSpeed = 5;
     public float maxSpeed = 12.5f;
 
@@ -57,7 +57,7 @@ public class CameraController : MonoBehaviour
         if (state == State.Focusing) {
             pos.y = focusedObject.position.y + 5f;
             transform.position =
-            Vector3.Lerp(transform.position, pos, focusSpeed);
+            Vector3.Lerp(transform.position, pos, focusSpeed * Time.deltaTime);
 
             if (transform.position.y >= pos.y - 1f) {
                 state = State.Scrolling;

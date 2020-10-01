@@ -1,20 +1,45 @@
 fileFormatVersion: 2
 guid: 91a6ed150dd7d3e46841d5fc080241f6
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: splash animation transition_GO/splash animation transition_GO
-    100002: splash animation transition_GO/splash animation transition_GO/Splash1
-    100004: splash animation transition_GO/splash animation transition_GO/Splash2
-    400000: splash animation transition_GO/splash animation transition_GO/Transform
-    400002: splash animation transition_GO/splash animation transition_GO/Splash1/Transform
-    400004: splash animation transition_GO/splash animation transition_GO/Splash2/Transform
-    2800000: splash animation transition
-    21200000: splash animation transition_GO/splash animation transition_GO/Splash1/SpriteRenderer
-    21200002: splash animation transition_GO/splash animation transition_GO/Splash2/SpriteRenderer
-    21300000: a75186717c3820b4ca0bfbd762fa8f3d
-    21300002: 95d7e0e5a2323e24d80c4909ed80358b
-    100100000: splash animation transition_GO
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: splash animation transition_GO/splash animation transition_GO
+  - first:
+      1: 100002
+    second: splash animation transition_GO/splash animation transition_GO/Splash1
+  - first:
+      1: 100004
+    second: splash animation transition_GO/splash animation transition_GO/Splash2
+  - first:
+      4: 400000
+    second: splash animation transition_GO/splash animation transition_GO/Transform
+  - first:
+      4: 400002
+    second: splash animation transition_GO/splash animation transition_GO/Splash1/Transform
+  - first:
+      4: 400004
+    second: splash animation transition_GO/splash animation transition_GO/Splash2/Transform
+  - first:
+      28: 2800000
+    second: splash animation transition
+  - first:
+      212: 21200000
+    second: splash animation transition_GO/splash animation transition_GO/Splash1/SpriteRenderer
+  - first:
+      212: 21200002
+    second: splash animation transition_GO/splash animation transition_GO/Splash2/SpriteRenderer
+  - first:
+      213: 21300000
+    second: a75186717c3820b4ca0bfbd762fa8f3d
+  - first:
+      213: 21300002
+    second: 95d7e0e5a2323e24d80c4909ed80358b
+  - first:
+      1001: 100100000
+    second: splash animation transition_GO
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -72,6 +97,7 @@ ScriptedImporter:
     maxTextureSizeSet: 0
     compressionQualitySet: 0
     textureFormatSet: 0
+    applyGammaDecoding: 0
   spriteImportData:
   - name: 
     originalName: 
@@ -85,6 +111,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -108,6 +135,7 @@ ScriptedImporter:
       width: 1080
       height: 2405
     spriteID: a75186717c3820b4ca0bfbd762fa8f3d
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -129,6 +157,7 @@ ScriptedImporter:
       width: 1080
       height: 2422
     spriteID: 95d7e0e5a2323e24d80c4909ed80358b
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -146,6 +175,7 @@ ScriptedImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
@@ -156,6 +186,10 @@ ScriptedImporter:
   importedTextureWidth: 1024
   importedTextureHeight: 1024
   documentSize: {x: 1080, y: 2500}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 4096
   textureActualHeight: 4096
   spritePackingTag: 
@@ -181,7 +215,9 @@ ScriptedImporter:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
-  boneGOs: []
+    characterGroups: []
   generateGOHierarchy: 0
   textureAssetName: splash animation transition
   prefabAssetName: splash animation transition_GO
+  spriteLibAssetName: splash animation transition Sprite Lib
+  secondarySpriteTextures: []

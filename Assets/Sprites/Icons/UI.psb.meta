@@ -1,25 +1,60 @@
 fileFormatVersion: 2
 guid: 26a6822095b5e424086596696503dd01
 ScriptedImporter:
-  fileIDToRecycleName:
-    2800000: UIGameplay
-    21300000: 7ff6add4554f9de4fa8d3d5fd3df45f4
-    21300002: 21fa67f79dbff2d48808e08bf146866b
-    21300004: 0b1169363e916584d9654b16a9497968
-    21300006: 0662cfdd6a2eb0b4b9dbab08f95efe0a
-    21300008: fcfd4608b30fba148bdf645ad25aef27
-    21300010: 9a137cc2740611d46abe5e542dcc754d
-    21300012: febe0853c805be1489cf90f01800aabc
-    21300020: c1b63f2e6c5ad994ba24489eb4c77ca7
-    21300022: 8a4892390d1969349b18505b9cc6aae0
-    21300024: 181eb58d616825b4aba4a47575b2a90e
-    21300026: 2a09d1f1aa5390d4fa9e4457fca2b775
-    21300028: b92c36c578d6a5541aa3245a32806ff7
-    21300030: 92065e8ba70976547adad520804f432c
-    21300032: bab0eaaedb0b21a49a4b501ef65773b1
-    21300034: 693f9dd3a7655964796bbeda2b02f67c
-    21300036: 0900b702b35d79b45a463e55d19a581a
+  internalIDToNameTable:
+  - first:
+      28: 2800000
+    second: UIGameplay
+  - first:
+      213: 21300000
+    second: 7ff6add4554f9de4fa8d3d5fd3df45f4
+  - first:
+      213: 21300002
+    second: 21fa67f79dbff2d48808e08bf146866b
+  - first:
+      213: 21300004
+    second: 0b1169363e916584d9654b16a9497968
+  - first:
+      213: 21300006
+    second: 0662cfdd6a2eb0b4b9dbab08f95efe0a
+  - first:
+      213: 21300008
+    second: fcfd4608b30fba148bdf645ad25aef27
+  - first:
+      213: 21300010
+    second: 9a137cc2740611d46abe5e542dcc754d
+  - first:
+      213: 21300012
+    second: febe0853c805be1489cf90f01800aabc
+  - first:
+      213: 21300020
+    second: c1b63f2e6c5ad994ba24489eb4c77ca7
+  - first:
+      213: 21300022
+    second: 8a4892390d1969349b18505b9cc6aae0
+  - first:
+      213: 21300024
+    second: 181eb58d616825b4aba4a47575b2a90e
+  - first:
+      213: 21300026
+    second: 2a09d1f1aa5390d4fa9e4457fca2b775
+  - first:
+      213: 21300028
+    second: b92c36c578d6a5541aa3245a32806ff7
+  - first:
+      213: 21300030
+    second: 92065e8ba70976547adad520804f432c
+  - first:
+      213: 21300032
+    second: bab0eaaedb0b21a49a4b501ef65773b1
+  - first:
+      213: 21300034
+    second: 693f9dd3a7655964796bbeda2b02f67c
+  - first:
+      213: 21300036
+    second: 0900b702b35d79b45a463e55d19a581a
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -77,6 +112,7 @@ ScriptedImporter:
     maxTextureSizeSet: 0
     compressionQualitySet: 0
     textureFormatSet: 0
+    applyGammaDecoding: 0
   spriteImportData:
   - name: 
     originalName: 
@@ -90,6 +126,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -112,6 +149,7 @@ ScriptedImporter:
       width: 73
       height: 117
     spriteID: c1b63f2e6c5ad994ba24489eb4c77ca7
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -133,6 +171,7 @@ ScriptedImporter:
       width: 319
       height: 119
     spriteID: 8a4892390d1969349b18505b9cc6aae0
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -154,6 +193,7 @@ ScriptedImporter:
       width: 70
       height: 70
     spriteID: 181eb58d616825b4aba4a47575b2a90e
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -175,6 +215,7 @@ ScriptedImporter:
       width: 70
       height: 70
     spriteID: 2a09d1f1aa5390d4fa9e4457fca2b775
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -196,6 +237,7 @@ ScriptedImporter:
       width: 114
       height: 100
     spriteID: b92c36c578d6a5541aa3245a32806ff7
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -217,6 +259,7 @@ ScriptedImporter:
       width: 225
       height: 225
     spriteID: 92065e8ba70976547adad520804f432c
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -238,6 +281,7 @@ ScriptedImporter:
       width: 225
       height: 225
     spriteID: bab0eaaedb0b21a49a4b501ef65773b1
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -259,6 +303,7 @@ ScriptedImporter:
       width: 463
       height: 195
     spriteID: 693f9dd3a7655964796bbeda2b02f67c
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -280,6 +325,7 @@ ScriptedImporter:
       width: 467
       height: 197
     spriteID: 0900b702b35d79b45a463e55d19a581a
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -301,6 +347,7 @@ ScriptedImporter:
       width: 143
       height: 99
     spriteID: 7ff6add4554f9de4fa8d3d5fd3df45f4
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -322,6 +369,7 @@ ScriptedImporter:
       width: 80
       height: 80
     spriteID: 21fa67f79dbff2d48808e08bf146866b
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -343,6 +391,7 @@ ScriptedImporter:
       width: 93
       height: 94
     spriteID: 0b1169363e916584d9654b16a9497968
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -364,6 +413,7 @@ ScriptedImporter:
       width: 41
       height: 41
     spriteID: 0662cfdd6a2eb0b4b9dbab08f95efe0a
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -385,6 +435,7 @@ ScriptedImporter:
       width: 70
       height: 92
     spriteID: fcfd4608b30fba148bdf645ad25aef27
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -406,6 +457,7 @@ ScriptedImporter:
       width: 251
       height: 10
     spriteID: 9a137cc2740611d46abe5e542dcc754d
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -427,6 +479,7 @@ ScriptedImporter:
       width: 74
       height: 85
     spriteID: febe0853c805be1489cf90f01800aabc
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -449,6 +502,7 @@ ScriptedImporter:
       width: 319
       height: 119
     spriteID: ed51a2f19528bb84385fdb74327d6c1e
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -470,6 +524,7 @@ ScriptedImporter:
       width: 70
       height: 70
     spriteID: 0bfdb7e80e65e6442a74bff65549ce56
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -491,6 +546,7 @@ ScriptedImporter:
       width: 81
       height: 81
     spriteID: 894f812acf55d7a469b87b4b79e676fe
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -512,6 +568,7 @@ ScriptedImporter:
       width: 114
       height: 100
     spriteID: d8e3d43af37ef1547b14576d89974267
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -533,6 +590,7 @@ ScriptedImporter:
       width: 225
       height: 225
     spriteID: b0186f36cff99104f882cae99657f4c9
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -554,6 +612,7 @@ ScriptedImporter:
       width: 225
       height: 225
     spriteID: 88203b78af4fa114e91cc463f7a5a877
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -575,6 +634,7 @@ ScriptedImporter:
       width: 463
       height: 195
     spriteID: 887ae19b85bbe114494fb017cf647172
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -596,6 +656,7 @@ ScriptedImporter:
       width: 467
       height: 197
     spriteID: a4f31b257b251be43a9351ba50e4426a
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -617,6 +678,7 @@ ScriptedImporter:
       width: 2000
       height: 1920
     spriteID: 5f8895eb53457d74b86a6cbf389ffa81
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -638,6 +700,7 @@ ScriptedImporter:
       width: 73
       height: 117
     spriteID: 3bdfe549eaba4ed4c9a7d0469c2b1745
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -655,6 +718,7 @@ ScriptedImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
@@ -665,6 +729,10 @@ ScriptedImporter:
   importedTextureWidth: 1024
   importedTextureHeight: 1024
   documentSize: {x: 2000, y: 885}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 1024
   textureActualHeight: 1024
   spritePackingTag: 
@@ -858,7 +926,9 @@ ScriptedImporter:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
-  boneGOs: []
+    characterGroups: []
   generateGOHierarchy: 0
   textureAssetName: UIGameplay
   prefabAssetName: UIGameplay_GO
+  spriteLibAssetName: UI Sprite Lib
+  secondarySpriteTextures: []

@@ -1,16 +1,33 @@
 fileFormatVersion: 2
 guid: fdc3f9f1457dfce498f41c38d5dfd4dc
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: POWERUPS_GO/POWERUPS_GO
-    100006: POWERUPS_GO/POWERUPS_GO/Coins
-    400000: POWERUPS_GO/POWERUPS_GO/Transform
-    400006: POWERUPS_GO/POWERUPS_GO/Coins/Transform
-    2800000: POWERUPS
-    21200004: POWERUPS_GO/POWERUPS_GO/Coins/SpriteRenderer
-    21300004: 49cb5678935cb4b4481c16c5377d10ba
-    100100000: POWERUPS_GO
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: POWERUPS_GO/POWERUPS_GO
+  - first:
+      1: 100006
+    second: POWERUPS_GO/POWERUPS_GO/Coins
+  - first:
+      4: 400000
+    second: POWERUPS_GO/POWERUPS_GO/Transform
+  - first:
+      4: 400006
+    second: POWERUPS_GO/POWERUPS_GO/Coins/Transform
+  - first:
+      28: 2800000
+    second: POWERUPS
+  - first:
+      212: 21200004
+    second: POWERUPS_GO/POWERUPS_GO/Coins/SpriteRenderer
+  - first:
+      213: 21300004
+    second: 49cb5678935cb4b4481c16c5377d10ba
+  - first:
+      1001: 100100000
+    second: POWERUPS_GO
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -68,6 +85,7 @@ ScriptedImporter:
     maxTextureSizeSet: 0
     compressionQualitySet: 0
     textureFormatSet: 0
+    applyGammaDecoding: 0
   spriteImportData:
   - name: 
     originalName: 
@@ -81,6 +99,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -104,6 +123,7 @@ ScriptedImporter:
       width: 1431
       height: 1431
     spriteID: 49cb5678935cb4b4481c16c5377d10ba
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -121,6 +141,7 @@ ScriptedImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
@@ -131,6 +152,10 @@ ScriptedImporter:
   importedTextureWidth: 256
   importedTextureHeight: 256
   documentSize: {x: 2000, y: 2000}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 2048
   textureActualHeight: 2048
   spritePackingTag: 
@@ -149,7 +174,9 @@ ScriptedImporter:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
-  boneGOs: []
+    characterGroups: []
   generateGOHierarchy: 0
   textureAssetName: POWERUPS
   prefabAssetName: POWERUPS_GO
+  spriteLibAssetName: POWERUPS Sprite Lib
+  secondarySpriteTextures: []

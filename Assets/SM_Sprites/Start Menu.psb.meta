@@ -1,48 +1,129 @@
 fileFormatVersion: 2
 guid: 6bc7c27989f880b429e729c7220233c4
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: Start Menu_GO/Start Menu_GO
-    100002: Start Menu_GO/Start Menu_GO/61f0d7caaee233b43ea8c5359c038c41
-    100004: Start Menu_GO/Start Menu_GO/Background
-    100006: Start Menu_GO/Start Menu_GO/games_controller-512x410
-    100008: Start Menu_GO/Start Menu_GO/Layer 1
-    100010: Start Menu_GO/Start Menu_GO/Logo Start
-    100012: Start Menu_GO/Start Menu_GO/trophy
-    100016: Start Menu_GO/Start Menu_GO/Shopping-Basket-03-512
-    100018: Start Menu_GO/Start Menu_GO/Play Bg
-    100020: Start Menu_GO/Start Menu_GO/Play Title
-    400000: Start Menu_GO/Start Menu_GO/Transform
-    400002: Start Menu_GO/Start Menu_GO/61f0d7caaee233b43ea8c5359c038c41/Transform
-    400004: Start Menu_GO/Start Menu_GO/Background/Transform
-    400006: Start Menu_GO/Start Menu_GO/games_controller-512x410/Transform
-    400008: Start Menu_GO/Start Menu_GO/Layer 1/Transform
-    400010: Start Menu_GO/Start Menu_GO/Logo Start/Transform
-    400012: Start Menu_GO/Start Menu_GO/trophy/Transform
-    400016: Start Menu_GO/Start Menu_GO/Shopping-Basket-03-512/Transform
-    400018: Start Menu_GO/Start Menu_GO/Play Bg/Transform
-    400020: Start Menu_GO/Start Menu_GO/Play Title/Transform
-    2800000: Start Menu
-    21200000: Start Menu_GO/Start Menu_GO/61f0d7caaee233b43ea8c5359c038c41/SpriteRenderer
-    21200002: Start Menu_GO/Start Menu_GO/Background/SpriteRenderer
-    21200004: Start Menu_GO/Start Menu_GO/games_controller-512x410/SpriteRenderer
-    21200006: Start Menu_GO/Start Menu_GO/Shopping-Basket-03-512/SpriteRenderer
-    21200008: Start Menu_GO/Start Menu_GO/Logo Start/SpriteRenderer
-    21200010: Start Menu_GO/Start Menu_GO/Layer 1/SpriteRenderer
-    21200012: Start Menu_GO/Start Menu_GO/trophy/SpriteRenderer
-    21200016: Start Menu_GO/Start Menu_GO/Play Bg/SpriteRenderer
-    21200018: Start Menu_GO/Start Menu_GO/Play Title/SpriteRenderer
-    21300000: b77a747a61ddc0942bebac03b5f4bb92
-    21300002: 5a1d6ddf8dc0116409484f40417c2fce
-    21300004: f69fb3d7665777947bcd784a66ccb7e1
-    21300006: 7f74672e98dec454a80e51eaa15b1b16
-    21300008: a4d404f7ae0acc44da5f72ab30864d37
-    21300010: a6f10b711dd46d34e8b5db0333cd3acc
-    21300012: 175993ebf34ba3d48a2847440c5ee75c
-    21300014: 58e4055fee4883e48a340a954835e884
-    21300016: 8b3276cd355553347a6deda9256dc0fd
-    100100000: Start Menu_GO
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Start Menu_GO/Start Menu_GO
+  - first:
+      1: 100002
+    second: Start Menu_GO/Start Menu_GO/61f0d7caaee233b43ea8c5359c038c41
+  - first:
+      1: 100004
+    second: Start Menu_GO/Start Menu_GO/Background
+  - first:
+      1: 100006
+    second: Start Menu_GO/Start Menu_GO/games_controller-512x410
+  - first:
+      1: 100008
+    second: Start Menu_GO/Start Menu_GO/Layer 1
+  - first:
+      1: 100010
+    second: Start Menu_GO/Start Menu_GO/Logo Start
+  - first:
+      1: 100012
+    second: Start Menu_GO/Start Menu_GO/trophy
+  - first:
+      1: 100016
+    second: Start Menu_GO/Start Menu_GO/Shopping-Basket-03-512
+  - first:
+      1: 100018
+    second: Start Menu_GO/Start Menu_GO/Play Bg
+  - first:
+      1: 100020
+    second: Start Menu_GO/Start Menu_GO/Play Title
+  - first:
+      4: 400000
+    second: Start Menu_GO/Start Menu_GO/Transform
+  - first:
+      4: 400002
+    second: Start Menu_GO/Start Menu_GO/61f0d7caaee233b43ea8c5359c038c41/Transform
+  - first:
+      4: 400004
+    second: Start Menu_GO/Start Menu_GO/Background/Transform
+  - first:
+      4: 400006
+    second: Start Menu_GO/Start Menu_GO/games_controller-512x410/Transform
+  - first:
+      4: 400008
+    second: Start Menu_GO/Start Menu_GO/Layer 1/Transform
+  - first:
+      4: 400010
+    second: Start Menu_GO/Start Menu_GO/Logo Start/Transform
+  - first:
+      4: 400012
+    second: Start Menu_GO/Start Menu_GO/trophy/Transform
+  - first:
+      4: 400016
+    second: Start Menu_GO/Start Menu_GO/Shopping-Basket-03-512/Transform
+  - first:
+      4: 400018
+    second: Start Menu_GO/Start Menu_GO/Play Bg/Transform
+  - first:
+      4: 400020
+    second: Start Menu_GO/Start Menu_GO/Play Title/Transform
+  - first:
+      28: 2800000
+    second: Start Menu
+  - first:
+      212: 21200000
+    second: Start Menu_GO/Start Menu_GO/61f0d7caaee233b43ea8c5359c038c41/SpriteRenderer
+  - first:
+      212: 21200002
+    second: Start Menu_GO/Start Menu_GO/Background/SpriteRenderer
+  - first:
+      212: 21200004
+    second: Start Menu_GO/Start Menu_GO/games_controller-512x410/SpriteRenderer
+  - first:
+      212: 21200006
+    second: Start Menu_GO/Start Menu_GO/Shopping-Basket-03-512/SpriteRenderer
+  - first:
+      212: 21200008
+    second: Start Menu_GO/Start Menu_GO/Logo Start/SpriteRenderer
+  - first:
+      212: 21200010
+    second: Start Menu_GO/Start Menu_GO/Layer 1/SpriteRenderer
+  - first:
+      212: 21200012
+    second: Start Menu_GO/Start Menu_GO/trophy/SpriteRenderer
+  - first:
+      212: 21200016
+    second: Start Menu_GO/Start Menu_GO/Play Bg/SpriteRenderer
+  - first:
+      212: 21200018
+    second: Start Menu_GO/Start Menu_GO/Play Title/SpriteRenderer
+  - first:
+      213: 21300000
+    second: b77a747a61ddc0942bebac03b5f4bb92
+  - first:
+      213: 21300002
+    second: 5a1d6ddf8dc0116409484f40417c2fce
+  - first:
+      213: 21300004
+    second: f69fb3d7665777947bcd784a66ccb7e1
+  - first:
+      213: 21300006
+    second: 7f74672e98dec454a80e51eaa15b1b16
+  - first:
+      213: 21300008
+    second: a4d404f7ae0acc44da5f72ab30864d37
+  - first:
+      213: 21300010
+    second: a6f10b711dd46d34e8b5db0333cd3acc
+  - first:
+      213: 21300012
+    second: 175993ebf34ba3d48a2847440c5ee75c
+  - first:
+      213: 21300014
+    second: 58e4055fee4883e48a340a954835e884
+  - first:
+      213: 21300016
+    second: 8b3276cd355553347a6deda9256dc0fd
+  - first:
+      1001: 100100000
+    second: Start Menu_GO
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -100,6 +181,7 @@ ScriptedImporter:
     maxTextureSizeSet: 0
     compressionQualitySet: 0
     textureFormatSet: 0
+    applyGammaDecoding: 0
   spriteImportData:
   - name: 
     originalName: 
@@ -113,6 +195,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -136,6 +219,7 @@ ScriptedImporter:
       width: 710
       height: 413
     spriteID: b77a747a61ddc0942bebac03b5f4bb92
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -157,6 +241,7 @@ ScriptedImporter:
       width: 1080
       height: 545
     spriteID: 8b3276cd355553347a6deda9256dc0fd
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -178,6 +263,7 @@ ScriptedImporter:
       width: 264
       height: 251
     spriteID: 5a1d6ddf8dc0116409484f40417c2fce
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -199,6 +285,7 @@ ScriptedImporter:
       width: 327
       height: 233
     spriteID: a4d404f7ae0acc44da5f72ab30864d37
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,6 +307,7 @@ ScriptedImporter:
       width: 233
       height: 233
     spriteID: a6f10b711dd46d34e8b5db0333cd3acc
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -241,6 +329,7 @@ ScriptedImporter:
       width: 851
       height: 1034
     spriteID: 175993ebf34ba3d48a2847440c5ee75c
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -262,6 +351,7 @@ ScriptedImporter:
       width: 1080
       height: 1920
     spriteID: 58e4055fee4883e48a340a954835e884
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -283,6 +373,7 @@ ScriptedImporter:
       width: 262
       height: 338
     spriteID: f69fb3d7665777947bcd784a66ccb7e1
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -304,6 +395,7 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 7f74672e98dec454a80e51eaa15b1b16
+    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -321,6 +413,10 @@ ScriptedImporter:
   importedTextureWidth: 1024
   importedTextureHeight: 2048
   documentSize: {x: 1080, y: 1920}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 2048
   textureActualHeight: 4096
   spritePackingTag: 
@@ -402,7 +498,9 @@ ScriptedImporter:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
-  boneGOs: []
+    characterGroups: []
   generateGOHierarchy: 0
   textureAssetName: Start Menu
   prefabAssetName: Start Menu_GO
+  spriteLibAssetName: Start Menu Sprite Lib
+  secondarySpriteTextures: []
